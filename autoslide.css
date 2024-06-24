@@ -1,0 +1,50 @@
+.gridcontainerMobile {
+	
+	position: relative;
+   margin-left: 20px;
+   margin-top: 20px;
+  
+    
+}
+.finalbutns{
+	
+    margin-top: 350px;
+    
+}
+.gridcontainerMobile ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.gridcontainerMobile li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+.imgaa {
+	height: 300px;
+	width: 300px;
+}
+
+.gridcontainerMobile li.active {
+	opacity: 1;
+}
+/* .gridcontainer{ 
+    margin-top: 25px;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    
+    } */
+
+ .buttonstyle{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}

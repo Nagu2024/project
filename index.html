@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="autoslide.css">
+  <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+  <!-- starting desktop view -->
+  <div class="showcase">
+    <div class="video-container">
+      <video class="videod" src='video_01.mp4' autoplay muted loop></video>
+      <img src="image-07.png" alt="">
+    </div>
+    <div class="content">
+      <h1>
+        Lorem ipsum <spam style="color: #800000">dollar</spam>
+      </h1>
+      <a href="#about" class="btn">Explore &nbsp;
+        <span style="font-size: 22px;"> > </span> </a><br><br><br>
+      <a href="#about" class="btn2">Explore &nbsp;<span style="font-size: 22px;"> > </span></a>
+    </div>
+
+  </div>
+  <!-- ending desktop view -->
+  <!-- starting mobile view -->
+
+  <div class="showcasem">
+    <div class="video-containerm">
+
+      <img class="imgmn" src="image-07.png" alt="">
+
+    </div>
+    <div class="contentm">
+      <h1>
+        Lorem ipsum <br>
+        <spam style="color: #800000">dollar</spam>
+      </h1>
+      <a href="#about" class="btnm">Explore &nbsp;
+        <span style="font-size: 22px;"></span> > </a><br><br><br>
+
+    </div>
+
+  </div>
+  <!-- ending mobile view -->
+
+  <!-- ending desktop view -->
+  <div id="about">
+    <h1 style="color: #800000">Section title goes here</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+      tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    </p>
+
+  </div>
+  <!-- ending desktop view -->
+
+  <!-- starting mobile view -->
+  <div id="aboutm">
+    <h1 style="color: #800000">Section title goes here</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+      tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    </p>
+
+  </div>
+
+  <!-- ending mobile view -->
+
+  <!-- slider starting desktop view -->
+  <div class="arrowdesktop">
+    <div class="arrows1 prev1" onclick="movebackward();"></div>
+    <div class="arrows2 next1" onclick="moveforward();"></div>
+  </div>
+
+  <div class="slider">
+
+
+    <div class="box slider">
+
+      <img class="img1" src="301.jpeg" alt="" />
+      <p><span style="color: #800000; font-size: xx-large;"> John </span><br>
+        <span style="color: #808080;">&nbsp Designation </span><br>
+        <span style="color: #808080;"> Division </span>
+      </p>
+
+      <p
+        style="position: absolute; transform: translate(0, -50px); margin-bottom: 20px; bottom: 0; text-align: left;margin-left: 23px;">
+        “ Lorem ipsum dolor sit amet,
+        consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut
+        laoreet dolore magna aliquam erat <br>
+
+      </p>
+      <p id="line"></p>
+      <button class="butn12">Explore now ></button>
+
+    </div>
+
+    <div class="box slider">
+      <img class="img1" src="302.jpeg" alt="" />
+      <p><span style="color: #800000; font-size: xx-large;"> Jane </span><br>
+        <span style="color: #808080;">&nbsp Designation </span><br>
+        <span style="color: #808080;"> Division </span>
+      </p>
+      <p
+        style="position: absolute; transform: translate(0, -70px); margin-bottom: 20px; bottom: 0;text-align: left;margin-left: 23px;">
+        “ Lorem ipsum dolor sit amet,
+        consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod <br>
+
+      </p>
+
+      <p id="line"></p>
+      <button class="butn12">Explore now ></button>
+    </div>
+    <div class="box slider">
+
+      <img class="img1" src="303.jpeg" alt="" />
+      <p><span style="color: #800000; font-size: xx-large;">&nbsp Jeremy </span><br>
+        <span style="color: #808080;">&nbsp Designation </span><br>
+        <span style="color: #808080;"> Division </span>
+      </p>
+      <p
+        style="position: absolute; transform: translate(0, -50px); margin-bottom: 20px; bottom: 0;text-align: left;margin-left: 23px;">
+        “ Lorem ipsum dolor sit amet,
+        consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut
+        laoreet dolore magna aliquam erat <br>
+
+      </p>
+      <p id="line"></p>
+      <button class="butn12">Explore now ></button>
+
+    </div>
+
+  </div>
+  <div class="dotcont">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  <!-- slider ending desktop view -->
+  <!-- mobile responsive for box slider -->
+  <!-- <div class="arrowdesktopm">
+  <div class="arrows1 prev1" onclick="movebackward();"></div>
+  <div class="arrows2 next1" onclick="moveforward();"></div>
+</div>
+   -->
+  <div class="sliderm">
+
+    <div class="boxm sliderm">
+
+      <img class="imgm" src="301.jpeg" alt="" />
+      <p><span style="color: #800000; font-size: xx-large;"> John </span><br>
+        <span style="color: #808080;">&nbsp Designation </span><br>
+        <span style="color: #808080;"> Division </span>
+      </p>
+
+      <p
+        style="position: absolute; transform: translate(0, -50px); margin-bottom: 20px; bottom: 0; text-align: left;margin-left: 23px;">
+        “ Lorem ipsum dolor sit amet,
+        consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut
+        laoreet dolore magna aliquam erat <br>
+
+      </p>
+      <p id="line"></p>
+      <button class="butn12">Explore now ></button>
+
+    </div>
+
+    <div class="boxm sliderm">
+      <img class="imgm" src="302.jpeg" alt="" />
+      <p><span style="color: #800000; font-size: xx-large;"> Jane </span><br>
+        <span style="color: #808080;">&nbsp Designation </span><br>
+        <span style="color: #808080;"> Division </span>
+      </p>
+      <p
+        style="position: absolute; transform: translate(0, -70px); margin-bottom: 20px; bottom: 0;text-align: left;margin-left: 23px;">
+        “ Lorem ipsum dolor sit amet,
+        consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod <br>
+
+      </p>
+
+      <p id="line"></p>
+      <button class="butn12">Explore now ></button>
+    </div>
+    <div class="boxm sliderm">
+
+      <img class="imgm" src="303.jpeg" alt="" />
+      <p><span style="color: #800000; font-size: xx-large;">&nbsp Jeremy </span><br>
+        <span style="color: #808080;">&nbsp Designation </span><br>
+        <span style="color: #808080;"> Division </span>
+      </p>
+      <p
+        style="position: absolute; transform: translate(0, -50px); margin-bottom: 20px; bottom: 0;text-align: left;margin-left: 23px;">
+        “ Lorem ipsum dolor sit amet,
+        consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut
+        laoreet dolore magna aliquam erat <br>
+
+      </p>
+      <p id="line"></p>
+      <button class="butn12">Explore now ></button>
+
+    </div>
+
+  </div>
+
+  <div class="dotcontm">
+    <div class="arrows1m prev1m" onclick="plusSlidesm(-1, 'prev');"></div>
+    <div class="arrows2m next1m" onclick="plusSlidesm(1, 'next');"></div>
+    <span class="dotm" onclick="currentSlide(1)"></span>
+    <span class="dotm" onclick="currentSlide(2)"></span>
+    <span class="dotm" onclick="currentSlide(3)"></span>
+
+
+  </div>
+
+  <div style="background-color: #f2f2f2;">
+    <!-- starting desktop view -->
+    <div id="about">
+      <h1 style="color: #800000">Section title goes here</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+        tincidunt ut laoreet dolore magna aliquam erat volutpat.
+      </p>
+
+    </div>
+    <!-- ending desktop view -->
+    
+    <!-- starting desktop slider view -->
+    <div class="gridcontainer">
+
+      <div class="grid">
+
+        <img height="150px" width="270px" src="image-03.jpg" alt="Sample photo" onclick="openModal();currentSlide(1)">
+
+        <img height="150px" src="image-02.jpg" alt="Sample photo" onclick="openModal();currentSlide(2)">
+        <img height="150px" src="image-05.jpg" alt="Sample photo" onclick="openModal();currentSlide(3)">
+        <img height="150px" width="270px" src="image-03.jpg" alt="Sample photo" onclick="openModal();currentSlide(4)">
+
+        <img height="150px" src="image-04.jpg" alt="Sample photo" onclick="openModal();currentSlide(5)">
+        <img height="150px" src="image-05.jpg" alt="Sample photo" onclick="openModal();currentSlide(6)">
+
+        <img height="150px" width="270px" src="image-06.jpg" alt="Sample photo" onclick="openModal(7);currentSlide(6)">
+        <img height="150px" src="image-04.jpg" alt="Sample photo" onclick="openModal();currentSlide(8)">
+        <img height="150px" src="image-05.jpg" alt="Sample photo" onclick="openModal();currentSlide(9)">
+        <!-- <p>img1</p>
+          <p>img1</p>
+          <p>img1</p>
+          <p>img1</p> -->
+
+      </div>
+      <button class="butn1">Explore now ></button>
+      </div>
+    </div>
+      <div id="myModal" class="modal">
+
+
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+
+
+
+        <div class="modal-content">
+          <a class="prev" onclick="plusSlides(-1,'prev')">&#10094;</a>
+
+
+          <div class="mySlides">
+            <div class="numbertext">1 / 9</div>
+            <img src="image-03.jpg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 9</div>
+            <img src="image-02.jpg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 9</div>
+            <img src="image-05.jpg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 9</div>
+            <img src="image-03.jpg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 9</div>
+            <img src="image-04.jpg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 9</div>
+            <img src="image-05.jpg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">7 / 9</div>
+            <img src="image-06.jpg" style="width:50%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">8 / 9</div>
+            <img src="image-04.jpg" style="width:50%">
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">9 / 9</div>
+            <img src="image-05.jpg" style="width:50%">
+          </div>
+          <a class="next" onclick="plusSlides(1,'next')">&#10095;</a>
+
+
+
+        </div>
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="image-03.jpg" style="width:100%" onclick="currentSlide(1)">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="image-02.jpg" style="width:100%" onclick="currentSlide(2)">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="image-05.jpg" style="width:100%" onclick="currentSlide(3)">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="image-03.jpg" style="width:100%" onclick="currentSlide(4)">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="image-04.jpg" style="width:100%" onclick="currentSlide(5)">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="image-05.jpg" style="width:100%" onclick="currentSlide(6)">
+          </div>
+
+          <div class="column">
+            <img class="demo cursor" src="image-06.jpg" style="width:100%" onclick="currentSlide(7)">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="image-04.jpg" style="width:100%" onclick="currentSlide(8)">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="image-05.jpg" style="width:100%" onclick="currentSlide(9)">
+          </div>
+
+
+        </div>
+
+      </div>
+      <!-- Ending desktop slider view -->
+      <!-- starting mobile view -->
+      <div class="slideabout" style="background-color: #f2f2f2;">
+        <div id="aboutm">
+          <h1 style="color: #800000">Section title goes here</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+            tincidunt ut laoreet dolore magna aliquam erat volutpat.
+          </p>
+
+        </div>
+      </div>
+
+       <!-- ending mobile view -->
+       <div class="gridcontainerMobile">
+        <ul>
+          <li>
+            <img class="imgaa" src="image-01.jpg" alt="GFG Image 1">
+           
+          </li>
+          <li>
+            <img class="imgaa" src="image-02.jpg" alt="GFG Image 2">
+        
+          </li>
+          <li>
+            <img class="imgaa" src="image-03.jpg" alt="GFG Image 3">
+            
+          </li>
+          <li>
+            <img class="imgaa" src="image-04.jpg" alt="GFG Image 4">
+            
+          </li>
+          <li>
+            <img class="imgaa" src="image-05.jpg" alt="GFG Image 1">
+           
+          </li>
+          <li>
+            <img class="imgaa" src="image-06.jpg" alt="GFG Image 2">
+        
+          </li>
+          <li>
+            <img class="imgaa" src="image-07.png" alt="GFG Image 3">
+            
+          </li>
+          
+        </ul>
+       
+        
+      </div>
+
+      <div class="finalbutns"> <button class="butnf1">Explore now ></button></div>
+     
+      <!-- <button class="butn1">Explore now ></button> -->
+
+      <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- end of mobile responsive for box slider -->
